@@ -1,5 +1,7 @@
 on: push
-name: Jenkins single-shot master
+name: Jenkinsfile Runner Prepackaged
+uses: jenkinsci/jenkinsfile-runner-github-actions@v0.2
+            
 jobs:
   jenkinsfile-runner-prepackaged:
     runs-on: ubuntu-latest
