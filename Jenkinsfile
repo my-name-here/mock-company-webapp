@@ -6,6 +6,11 @@ pipeline {
                 ./gradlew assemble
             }
         }
+	stage('Test') {
+            steps { 
+                ./gradlew test
+            }
+        }
     }
   /*
    * TODO: Implement pipeline stages/steps
