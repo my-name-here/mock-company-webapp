@@ -1,6 +1,5 @@
 on: push
--name: Jenkinsfile Runner Prepackaged
-uses: jenkinsci/jenkinsfile-runner-github-actions@v0.2
+name: Jenkinsfile Runner Prepackaged
             
 jobs:
   jenkinsfile-runner-prepackaged:
