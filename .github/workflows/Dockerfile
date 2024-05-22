@@ -1,1 +1,0 @@
-FROM ghcr.io/jenkinsci/jenkinsfile-runner-github-actions/jenkinsfile-runner-prepackaged:latest
